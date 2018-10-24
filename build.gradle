@@ -2,38 +2,39 @@
 
 buildscript {
     repositories {
-
-        jcenter()
         google()
+        jcenter()
         maven {
-            url 'https://maven.google.com/'
-            name 'Google'
+            url 'https://dl.google.com/dl/android/maven2'
         }
-        subprojects {
-            repositories {
-                mavenCentral()
-                maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
-            }
-        }
-
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.1'
+        classpath 'com.android.tools.build:gradle:3.2.1'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
         classpath 'com.google.gms:google-services:3.2.0'
     }
+    subprojects {
+        repositories {
+            mavenCentral()
+            maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
+        }
+    }
+
 }
 
 allprojects {
     repositories {
         maven { url 'http://dl.bintray.com/populov/maven' }
         mavenCentral()
-        jcenter()
+
         maven {
             url 'https://maven.google.com/'
             name 'Google'
         }
+
+        google()
+        jcenter()
     }
 }
 
