@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "188170572480",
+    "firebase_url": "https://realtime-3772c.firebaseio.com",
+    "project_id": "realtime-3772c",
+    "storage_bucket": "realtime-3772c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188170572480:android:5d34d6acc3b775a4",
+        "android_client_info": {
+          "package_name": "com.example.vustk.goodfoodv101"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188170572480-tfpks40gbtlgsf0kgfb9aiujck1d0umr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYAQj3yAvYbxDT3foCNxICOd0qMIrxo6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
