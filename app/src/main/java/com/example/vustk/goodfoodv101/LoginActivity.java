@@ -78,6 +78,14 @@ public class LoginActivity extends AppCompatActivity {
                 requestPostLogin();
             }
         });
+        
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                startActivity(intent);
+            }
+        });
 
         callback = new SessionCallback();
         Session.getCurrentSession().addCallback(callback);
