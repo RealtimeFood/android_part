@@ -3,22 +3,22 @@
 
     <item
         android:id="@+id/navi_home"
-        android:icon="@drawable/work"
+        android:icon="@drawable/home"
         android:title="홈" />
 
     <item
         android:id="@+id/navi_categori"
-        android:icon="@drawable/work"
+        android:icon="@drawable/farm"
         android:title="농장" />
 
     <item
         android:id="@+id/navi_search"
-        android:icon="@drawable/work"
+        android:icon="@drawable/pro"
         android:title="상품" />
 
     <item
         android:id="@+id/navi_profile"
-        android:icon="@drawable/work"
+        android:icon="@drawable/mypage"
         android:title="마이페이지" />
 
 </menu>
